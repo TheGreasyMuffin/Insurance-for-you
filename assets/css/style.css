@@ -1,8 +1,8 @@
-/* ---- Nav Bar Custom Styling ---- */
+/* ---- Navbar Custom Styling ---- */
 
 .navbar {
 
-    padding: 0px;    
+    padding: 5px; 
 }
 
 .nav-text {
@@ -37,8 +37,51 @@
 .nav-item {
 
     margin-right: 30px;
-    padding-top: 22px;
+    padding-top: 20px;
 }
+
+/* ---- Callout ---- */
+
+.callout-background {
+   height: 100vh;
+   background: url(../images/background.jpg) no-repeat top left fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+}
+
+/* ---- Jumbotron ---- */
+
+.jumbotron {
+    margin: auto;
+    background-color: rgba(134, 134, 134, 0.685);
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.jumbo-head {
+    color: rgb(255, 255, 255);   
+    font-family: 'Krona One', sans-serif;
+    font-weight: bold;
+    font-size: 58px;
+
+}
+
+.lead {
+    font-weight: 500;
+     color: rgb(255, 255, 255);   
+    font-family: 'Permanent Marker', cursive;
+}
+
 /* ---- Dividers ----*/
 
 hr {
@@ -47,6 +90,21 @@ margin: 0px;
 padding: 0px;
 }
 
+.divider {
+
+    background-color: rgba(92, 92, 92, 0.863);
+    height: 1px;
+    width: 600px;
+    margin: auto;
+}
+
+/* ---- Mobile fixes  ---- */
+.mobile-background {
+
+    width: 100%;
+    height: 45vh;
+    margin-top: 50px;
+}
 
 /* ---- Media Querys ---- */
 
@@ -60,11 +118,10 @@ padding: 0px;
     margin: 0px;
 }
 
-hr {
-    
-margin: 0px;
-padding: 0px;
-width: 275px;
+.nav-item {
+
+    margin-right: 30px;
+    padding-top: 10px;
 }
 
 /* Dividers*/
@@ -73,6 +130,13 @@ width: 275px;
 
     width: 100%;
     margin-top: 10px;
+}
+
+hr {
+    
+    margin: 0px;
+    padding: 0px;
+    width: 275px;
 }
 
 }
