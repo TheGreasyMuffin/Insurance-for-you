@@ -1,0 +1,78 @@
+/* ---- Nav Bar Custom Styling ---- */
+
+.navbar {
+
+    padding: 0px;    
+}
+
+.nav-text {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.bran-text {
+
+    font-family: 'Josefin Slab', serif;
+    padding: 5px;
+    margin: 0px;
+    margin-right: 24px;
+    font-size: 48px;
+    margin-top: auto;
+    margin-left: 10px;
+}
+
+.nav-list-cust {
+
+    margin-left: auto;
+}
+
+.navbar-collapse {
+
+ margin: 0px;
+ padding: 0px;
+}
+
+.nav-item {
+
+    margin-right: 30px;
+    padding-top: 22px;
+}
+/* ---- Dividers ----*/
+
+hr {
+
+margin: 0px;
+padding: 0px;
+}
+
+
+/* ---- Media Querys ---- */
+
+@media (max-width: 991px) {
+
+/*Nav Bar*/
+
+.nav-list-cust {
+
+    padding: 0px;
+    margin: 0px;
+}
+
+hr {
+    
+margin: 0px;
+padding: 0px;
+width: 275px;
+}
+
+/* Dividers*/
+
+.top-divider {
+
+    width: 100%;
+    margin-top: 10px;
+}
+
+}
