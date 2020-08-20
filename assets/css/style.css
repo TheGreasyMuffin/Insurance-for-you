@@ -1,7 +1,7 @@
 /* ---- Navbar Custom Styling ---- */
 
 .navbar {
-
+    position: static;
     padding: 5px; 
 }
 
@@ -40,17 +40,45 @@
     padding-top: 20px;
 }
 
-/* ---- Callout ---- */
+/* ---- Callout/Alert ---- */
 
-.callout-background {
+.alert-container {
+
+position: static;
+padding: 0px;
+margin: 0px;
+z-index: 2;
+
+}
+
+.alert-container {
+
+
+}
+
+.site-wide-alert {
+
+    margin: 0;
+    padding: 10px;
+}
+
+.alert-warning {
+
+    background-color: rgba(7, 213, 250, 0.384)
+}
+
+
+/* ---- Jumbotron ---- */
+
+.jumb-background {
    height: 100vh;
-   background: url(../images/background.jpg) no-repeat top left fixed; 
+   background: url(../images/background.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,8 +86,6 @@
   position: relative;
 
 }
-
-/* ---- Jumbotron ---- */
 
 .jumbotron {
     margin: auto;
@@ -82,6 +108,13 @@
     font-family: 'Permanent Marker', cursive;
 }
 
+/* ---- Footer ---- */
+
+.foot-sty {
+
+    text-align: center;
+}
+
 /* ---- Dividers ----*/
 
 hr {
@@ -98,45 +131,80 @@ padding: 0px;
     margin: auto;
 }
 
+.section-div {
+
+    width: 100%;
+    height: 1px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.section-un {
+    margin: auto;
+    padding-bottom: 5px;
+    height: 1px;
+}
+
+/* ---- Backgrounds  ---- */
+
+.info-bg {
+
+    background-color: rgba(128, 128, 128, 0.116);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.about-bg {
+
+    background-color: rgba(211, 198, 198, 0.493);
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 70px;
+    padding: 5px;
+}
+
 /* ---- Mobile fixes  ---- */
 .mobile-background {
 
     width: 100%;
     height: 45vh;
-    margin-top: 50px;
+    margin-top: 60px;
+    margin: auto;
+    border: solid 3px #617080;
 }
 
-/* ---- Media Querys ---- */
+ /* ---- Media Querys ---- */
 
-@media (max-width: 991px) {
+ @media (max-width: 991px) {
 
-/*Nav Bar*/
+ /* ---- Nav Bar ---- */
 
-.nav-list-cust {
+ .nav-list-cust {
 
     padding: 0px;
     margin: 0px;
-}
+ }
 
-.nav-item {
+ .nav-item {
 
     margin-right: 30px;
     padding-top: 10px;
-}
+ }
 
-/* Dividers*/
+ /* ---- Dividers ---- */
 
-.top-divider {
+ .top-divider {
 
     width: 100%;
     margin-top: 10px;
-}
+ }
 
-hr {
+ hr {
     
     margin: 0px;
     padding: 0px;
     width: 275px;
-}
+ }
 
-}
+ }
