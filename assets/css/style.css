@@ -40,6 +40,13 @@
     padding-top: 20px;
 }
 
+/* ---- Landing Page ---- */
+
+.info-txt {
+
+    text-align: center;
+}
+
 /* ---- Callout/Alert ---- */
 
 .alert-container {
@@ -113,6 +120,8 @@ z-index: 2;
 .foot-sty {
 
     text-align: center;
+    margin: auto;
+    padding: auto;
 }
 
 /* ---- Dividers ----*/
@@ -146,6 +155,12 @@ padding: 0px;
     height: 1px;
 }
 
+.text-div {
+
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 /* ---- Backgrounds  ---- */
 
 .info-bg {
